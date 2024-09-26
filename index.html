@@ -31,6 +31,7 @@
                     </div>
                 </nav>
 
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <!---CATALOGO LIBRI LINK--->
@@ -50,13 +51,38 @@
                         <li class="nav-item"></li>
                         <a class="nav-link text-white" href="#">Help</a>
                         </li>
-                    </ul>
 
+                        <!--- HIDDEN COLLAPSED NAV BAR--->
+                        <li>
+                            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark"></div>
+                            <div class="bg-dark p-4">
+                                <h5 class="text-body-emphasis h4">Collapsed content</h5>
+                                <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+                            </div>
                 </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+                </li>
+
+                </ul>
+
             </div>
+            
         </nav>
 
+
+
+
+
     </header>
+
     <main>
 
         <!---CATALOGO LIBRI TITOLO SOPRA TABELLA--->
@@ -86,88 +112,232 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
+
                             <td>I pilastri della terra</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@mdo</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
+
                             <td>I promessi sposi</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@fat</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
+
                             <td>Il signore degli anelli</td>
                             <td>18/10/2023</td>
                             <td><span class="badge rounded-pill bg-warning">in prestito</span></td>
-                            
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">4</th>
+
                             <td>Harry Potter e la pietra filosofale</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">5</th>
+
                             <td>Il codice Da Vinci</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-danger">non disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">6</th>
+
                             <td>Shining</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">7</th>
+
                             <td>La Divina Commedia</td>
                             <td>21-09-2023</td>
                             <td><span class="badge rounded-pill bg-warning">in prestito</span></td>
-                            <td>21-09-2023</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">8</th>
+
                             <td>Il Trono di Spade</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">9</th>
+
                             <td>Il Mondo di Sofia</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-danger">non disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr></tr>
-                        <th scope="row">10</th>
+
                         <td>Le Cronache di Narnia, il leone, la strega e l'armadio</td>
                         <td>25/07/2023</td>
                         <td><span class="badge rounded-pill bg-warning">in prestito</span></td>
-                        <td>@twitter</td>
+                        <td>
+                            <div class="pencil-bin-btns">
+
+                                <a href="bin" class="btn btn-outline-secondary">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                                <a href="pencil" class="btn btn-outline-secondary">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+
+
+                            </div>
+                        </td>
                         </tr>
                         <tr>
-                            <th scope="row">11</th>
+
                             <td>Il Piccolo Principe</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">12</th>
+
                             <td>La Storia Infinita</td>
                             <td>-</td>
                             <td><span class="badge rounded-pill bg-success">disponibile</span></td>
-                            <td>@twitter</td>
+                            <td>
+                                <div class="pencil-bin-btns">
+
+                                    <a href="bin" class="btn btn-outline-secondary">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="pencil" class="btn btn-outline-secondary">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
